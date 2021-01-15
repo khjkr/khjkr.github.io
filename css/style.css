@@ -3,7 +3,7 @@
 
 :root {
   --main-color: #E88C17;
-  --bg-color: #121212;
+  --bg-color: #242424;
   --text-color: #FFFAFA;
 }
 
@@ -34,7 +34,7 @@ a {
 }
 
 #Introduce {
-  background-color: #181818;
+  background-color: #202020;
   height: 100vh;
   position: relative;
   top: 0;
@@ -56,7 +56,7 @@ a {
 }
 
 #Projects {
-  background-color: #181818;
+  background-color: #202020;
   height: 100vh;
   position: relative;
   top: 0;
@@ -84,7 +84,7 @@ a {
   color: var(--text-color);
   font-size: 13px;
   margin-top: 40px;
-  background-color: #161616;
+  background-color: #202020;
   justify-content: space-between;
 }
 
@@ -97,16 +97,22 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  background-color: #161616;
+  background-color: #202020;
 }
 
 .navbar__logo {
   font-size: 24px;
+  transition: 0.2s;
   color: var(--text-color);
 }
 
 .navbar__logo i {
   color: #E88C17;
+}
+
+.navbar__logo:hover {
+  opacity: 0.6;
+  transition: 0.2s;
 }
 
 .navbar__menu {
@@ -117,11 +123,13 @@ a {
 
 .navbar__menu li {
   padding: 8px 12px;
+  transition: 0.2s;
 }
 
 .navbar__menu li:hover {
   background-color: #E88C17;
   border-radius: 4px;
+  transition: 0.2s;
 }
 
 .navbar__icons {
@@ -131,8 +139,14 @@ a {
   color: white;
 }
 
+.navbar__icons li:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
 .navbar__icons li {
   padding: 8px 12px;
+  transition: 0.2s;
 }
 
 .navbar__toggleBtn {
