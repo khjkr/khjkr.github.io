@@ -18,6 +18,61 @@ a {
   color: var(--text-color);
 }
 
+#Home {
+  background-color: var(--bg-color);
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+#Introduce {
+  background-color: #181818;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+#Skills {
+  background-color: var(--bg-color);
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+#Projects {
+  background-color: #181818;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+#History {
+  background-color: var(--bg-color);
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
 .footer {
   display: flex;
   width: 100%;
